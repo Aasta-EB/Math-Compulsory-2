@@ -5,7 +5,7 @@ class Matrix
 {
 
 public: 
-    void matrix();
+    Matrix();
     void read();
     void print();
     Matrix multiply(Matrix other);

@@ -1,6 +1,6 @@
 #include "Matrix.h"
 
-void Matrix::matrix()
+Matrix::Matrix()
 {
 }
 
