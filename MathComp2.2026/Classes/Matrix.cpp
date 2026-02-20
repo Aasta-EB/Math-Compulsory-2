@@ -10,6 +10,10 @@ void Matrix::read()
 
 void Matrix::print()
 {
+	for (int i = 0; i < M; i++)
+	{
+		std::cout << A[i] << "\n";
+	}
 }
 
 Matrix Matrix::multiply(Matrix other)
